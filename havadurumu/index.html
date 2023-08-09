@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hava Durumu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <div class="header">
+            <h1>Hava Durumu</h1>
+            <input type="text" id="searchBar" placeholder="Sehir Giriniz"> 
+        </div>
+        <div class="content">
+            <div class="city"></div>
+            <div class="temp"></div>
+            <div class="desc"></div>
+            <div class="minmax"></div>
+        </div>
+        <div class="forecast-container card"> </div>
+        <div id="myDiv"><button onclick="hideDiv()"></button>
+        <button onclick="showDiv()"></button></div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
